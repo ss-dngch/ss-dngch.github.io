@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — CS Student & Bioinformatics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="pixel-bg"></div>
+
+    <!-- Stars -->
+    <div class="pixel-stars" id="stars"></div>
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">🐱 <span>ss-dngch</span>.dev</div>
+    
+        <button class="nav-toggle" id="navToggle">☰</button>
+    
+        <ul id="navMenu">
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="home">
+        <div class="hero-text fade-in">
+            <div class="pixel-badge">✦ Data · Software · Bioinformatics</div>
+            <h1>
+                Hello, I'm<br>
+                <span class="cat-name">Sophia Sipayboun</span>
+            </h1>
+            <div class="hero-subtitle">
+                Software Developer & Bioinformatician
+            </div>
+            <p class="hero-desc">
+                Computer science graduate and M.S. Bioinformatics student at Northeastern University. I focus on data analysis,
+                software development, and computational biology, with growing experience in genomic data and machine learning
+                applications. Interested in precision medicine, disease risk prediction, and building data-driven tools that support
+                better clinical and healthcare decisions.
+            </p>
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">VIEW PROJECTS</a>
+                <a href="#contact" class="btn btn-secondary">GET IN TOUCH</a>
+            </div>
+        </div>
+
+        <div class="cat-display fade-in">
+            <div class="cat-frame">
+                <div class="corner tl"></div>
+                <div class="corner tr"></div>
+                <div class="corner bl"></div>
+                <div class="corner br"></div>
+                <!-- Pixel tuxedo cat with glasses -->
+                <svg width="220" height="260" viewBox="0 0 55 65" xmlns="http://www.w3.org/2000/svg" style="image-rendering:pixelated;"
+                    class="cat-img">
+                
+                    <!-- ears -->
+                    <g class="ear ear-left">
+                        <rect x="10" y="4" width="6" height="4" fill="#2d2d2d" />
+                        <rect x="12" y="2" width="4" height="2" fill="#2d2d2d" />
+                        <rect x="12" y="5" width="3" height="2" fill="#e8a0bf" />
+                    </g>
+                    
+                    <g class="ear ear-right">
+                        <rect x="39" y="4" width="6" height="4" fill="#2d2d2d" />
+                        <rect x="39" y="2" width="4" height="2" fill="#2d2d2d" />
+                        <rect x="40" y="5" width="3" height="2" fill="#e8a0bf" />
+                    </g>
+                
+                    <!-- head -->
+                    <rect x="11" y="8" width="33" height="25" fill="#2d2d2d" />
+                    <rect x="13" y="6" width="29" height="4" fill="#2d2d2d" />
+                    <rect x="15" y="33" width="25" height="3" fill="#2d2d2d" />
+                
+                    <!-- tuxedo face patches -->
+                    <rect x="18" y="12" width="19" height="16" fill="#f0ead6" />
+                    <rect x="15" y="12" width="6" height="10" fill="#2d2d2d" />
+                    <rect x="34" y="12" width="6" height="10" fill="#2d2d2d" />
+                    <rect x="21" y="10" width="13" height="5" fill="#2d2d2d" />
+                    <rect x="24" y="18" width="7" height="10" fill="#f0ead6" />
+                
+                    <!-- glasses -->
+                    <rect x="15" y="15" width="11" height="8" fill="none" stroke="#e8a0bf" stroke-width="1.3" />
+                    <rect x="30" y="15" width="11" height="8" fill="none" stroke="#e8a0bf" stroke-width="1.3" />
+                    <rect x="26" y="18" width="4" height="1.3" fill="#e8a0bf" />
+                    <rect x="12" y="18" width="3" height="1.3" fill="#e8a0bf" />
+                    <rect x="41" y="18" width="3" height="1.3" fill="#e8a0bf" />
+                
+                    <!-- eyes -->
+                    <rect class="cat-eye" x="18" y="17" width="5" height="4" fill="#1a1a2e" />
+                    <rect class="cat-eye" x="33" y="17" width="5" height="4" fill="#1a1a2e" />
+                    <rect x="20" y="17" width="1" height="1" fill="#ffffff" />
+                    <rect x="35" y="17" width="1" height="1" fill="#ffffff" />
+                
+                    <!-- cheeks / nose / mouth -->
+                    <rect x="22" y="24" width="2" height="1" fill="#e8a0bf" opacity="0.8" />
+                    <rect x="31" y="24" width="2" height="1" fill="#e8a0bf" opacity="0.8" />
+                    <rect x="26" y="23" width="3" height="2" fill="#e8a0bf" />
+                    <rect x="25" y="26" width="2" height="1" fill="#555" />
+                    <rect x="29" y="26" width="2" height="1" fill="#555" />
+                    <rect x="27" y="25" width="1" height="1" fill="#555" />
+                
+                    <!-- whiskers -->
+                    <rect x="4" y="23" width="11" height="1" fill="#888" />
+                    <rect x="5" y="25" width="10" height="1" fill="#888" opacity="0.7" />
+                    <rect x="40" y="23" width="11" height="1" fill="#888" />
+                    <rect x="40" y="25" width="10" height="1" fill="#888" opacity="0.7" />
+                
+                    <!-- body -->
+                    <rect x="14" y="36" width="27" height="20" fill="#2d2d2d" />
+                    <rect x="20" y="36" width="15" height="20" fill="#f0ead6" />
+                
+                    <!-- tuxedo jacket / lapels -->
+                    <rect x="14" y="36" width="8" height="20" fill="#2d2d2d" />
+                    <rect x="33" y="36" width="8" height="20" fill="#2d2d2d" />
+                    <rect x="22" y="36" width="4" height="9" fill="#2d2d2d" />
+                    <rect x="30" y="36" width="4" height="9" fill="#2d2d2d" />
+                
+                    <!-- pink collar + bell -->
+                    <rect x="20" y="34" width="15" height="3" fill="#e8a0bf" />
+                    <rect x="26" y="36" width="4" height="3" fill="#ffd3b6" />
+                    <rect x="27" y="39" width="2" height="1" fill="#c870a0" />
+                
+                    <!-- arms / paws -->
+                    <rect x="7" y="38" width="7" height="15" fill="#2d2d2d" />
+                    <rect x="41" y="38" width="7" height="15" fill="#2d2d2d" />
+                    <rect x="5" y="51" width="10" height="6" fill="#2d2d2d" />
+                    <rect x="40" y="51" width="10" height="6" fill="#2d2d2d" />
+                    <rect x="6" y="56" width="2" height="1" fill="#e8a0bf" />
+                    <rect x="10" y="56" width="2" height="1" fill="#e8a0bf" />
+                    <rect x="43" y="56" width="2" height="1" fill="#e8a0bf" />
+                    <rect x="47" y="56" width="2" height="1" fill="#e8a0bf" />
+                
+                    <!-- tail -->
+                    <rect x="42" y="53" width="4" height="2" fill="#2d2d2d" />
+                    <rect x="45" y="51" width="4" height="2" fill="#2d2d2d" />
+                    <rect x="48" y="48" width="2" height="4" fill="#2d2d2d" />
+                    <rect x="48" y="47" width="2" height="1" fill="#f0ead6" />
+                
+                </svg>
+            </div>
+            <div class="cat-status">available for opportunities</div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-header fade-in">
+            <div class="section-label">01 · about me</div>
+            <h2>Who <span class="highlight">am I?</span></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-text fade-in">
+                <p>
+                    Hey! I’m a <strong>computer science graduate</strong> preparing to begin my <strong>master’s in bioinformatics</strong>. I enjoy building
+                    things that actually matter, especially at the intersection of software, data, and science.
+                </p>
+                <p>
+                    I’m particularly interested in how computational tools can be applied to biological data — from genomics and sequence
+                    analysis to machine learning in healthcare. It’s the kind of work that feels like solving real-world puzzles, just
+                    written in ATCG.
+                </p>
+                <p>
+                    Outside of my work, I enjoy reading mystery and thriller novels, gaming, exploring creative crafts, and spending time
+                    with my cats. <span class="cat-paw">🐾</span>
+                </p>
+            </div>
+
+            <div class="stat-grid fade-in">
+                <div class="stat-box">
+                    <div class="stat-number" style="color: var(--accent)">2026</div>
+                    <div class="stat-label">M.S. bionformatics<br>start</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" style="color: var(--accent2)">B.S.</div>
+                    <div class="stat-label">computer science<br>graduate</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" style="color: var(--accent3)">∞</div>
+                    <div class="stat-label">cups of coffee<br>consumed</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" style="color: var(--accent4)">3</div>
+                    <div class="stat-label">passions: code,<br>biology & cats</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" style="background: rgba(255,255,255,0.01);">
+        <div class="section-header fade-in">
+            <div class="section-label">02 · skills</div>
+            <h2>What I <span class="highlight">know</span></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-category fade-in" style="--cat-color: var(--accent)">
+                <div class="skill-cat-header">
+                    <div class="skill-icon">💻</div>
+                    <div class="skill-cat-name">LANGUAGES</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag" style="--tag-color: var(--accent)">Python</span>
+                    <span class="tag" style="--tag-color: var(--accent)">R</span>
+                    <span class="tag" style="--tag-color: var(--accent)">SQL</span>
+                    <span class="tag" style="--tag-color: var(--accent)">Java</span>
+                    <span class="tag" style="--tag-color: var(--accent)">JavaScript</span>
+                    <span class="tag" style="--tag-color: var(--accent)">HTML/CSS</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in" style="--cat-color: var(--accent2)">
+                <div class="skill-cat-header">
+                    <div class="skill-icon">🔬</div>
+                    <div class="skill-cat-name">BIOINFORMATICS</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag" style="--tag-color: var(--accent2)">BioPython</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">Bioconductor</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">BLAST</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">FASTA/FASTQ</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">Sequence Analysis</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">FastQC</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in" style="--cat-color: var(--accent3)">
+                <div class="skill-cat-header">
+                    <div class="skill-icon">🧠</div>
+                    <div class="skill-cat-name">ML / DATA</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag" style="--tag-color: var(--accent3)">scikit-learn</span>
+                    <span class="tag" style="--tag-color: var(--accent3)">TensorFlow</span>
+                    <span class="tag" style="--tag-color: var(--accent3)">PyTorch</span>
+                    <span class="tag" style="--tag-color: var(--accent3)">Pandas</span>
+                    <span class="tag" style="--tag-color: var(--accent3)">NumPy</span>
+                    <span class="tag" style="--tag-color: var(--accent3)">SciPy</span>
+                    <span class="tag" style="--tag-color: var(--accent3)">Matplotlib</span>
+                    <span class="tag" style="--tag-color: var(--accent3)">Jupyter</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in" style="--cat-color: var(--accent2)">
+                <div class="skill-cat-header">
+                    <div class="skill-icon">🗄️</div>
+                    <div class="skill-cat-name">DATABASES</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag" style="--tag-color: var(--accent2)">MySQL</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">MongoDB</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">GenBank</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">GEO</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">SRA</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">Ensembl</span>
+                    <span class="tag" style="--tag-color: var(--accent2)">UCSC Genome Browser</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in" style="--cat-color: var(--accent4)">
+                <div class="skill-cat-header">
+                    <div class="skill-icon">🛠️</div>
+                    <div class="skill-cat-name">TOOLS & DEV</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag" style="--tag-color: var(--accent4)">Git</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">Linux</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">Docker</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">Node.js</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">Spring</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">Flutter</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">Tableau</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">Jira</span>
+                    <span class="tag" style="--tag-color: var(--accent4)">REST APIs</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-header fade-in">
+            <div class="section-label">03 · projects</div>
+            <h2>Things I <span class="highlight">built</span></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card fade-in">
+                <div class="card-shadow"></div>
+            
+                <span class="project-tag bio">BIOINFORMATICS</span>
+            
+                <div class="project-title">GeneScope</div>
+            
+                <p class="project-desc">
+                    Interactive genomics platform for analyzing and visualizing biological datasets.
+                    Supports dimensionality reduction (PCA/UMAP), dataset exploration, and pathway-focused insights
+                    through a clean web interface. Designed to make complex genomic data more accessible for analysis
+                    and interpretation.
+                </p>
+            
+                <div class="project-links">
+                    <a href="https://github.com/ss-dngch/GeneScope" target="_blank" class="proj-link">GitHub</a>
+                    <a href="#" class="proj-link">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="card-shadow"></div>
+                <span class="project-tag bio">BIOINFORMATICS</span>
+                <div class="project-title">Gene Sequence Analyzer</div>
+                <p class="project-desc">A pipeline for analyzing DNA sequences from public datasets. Uses BLAST
+                    alignment and custom Python scripts to identify mutations and annotate genetic variants. Built for a
+                    genomics course and expanded as a personal project.</p>
+                <div class="project-links">
+                    <a href="#" class="proj-link">GitHub</a>
+                    <a href="#" class="proj-link">Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="card-shadow"></div>
+                <span class="project-tag ml">ML / DATA</span>
+                <div class="project-title">Protein Structure Classifier</div>
+                <p class="project-desc">CNN-based classifier trained on PDB datasets to predict secondary protein
+                    structure from amino acid sequences. Achieved 87% accuracy on test set. First foray into combining
+                    deep learning with molecular biology.</p>
+                <div class="project-links">
+                    <a href="#" class="proj-link">GitHub</a>
+                    <a href="#" class="proj-link">Paper</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="card-shadow"></div>
+                <span class="project-tag">WEB / APP</span>
+                <div class="project-title">Research Paper Tracker</div>
+                <p class="project-desc">Full-stack web app for organizing and annotating academic papers. Features
+                    tagging, search, and a recommendation engine based on reading history. Built with React + Node.js +
+                    PostgreSQL. My most used personal tool.</p>
+                <div class="project-links">
+                    <a href="#" class="proj-link">GitHub</a>
+                    <a href="#" class="proj-link">Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="card-shadow"></div>
+                <span class="project-tag bio">BIOINFORMATICS</span>
+                <div class="project-title">Phylogenetic Tree Builder</div>
+                <p class="project-desc">Interactive visualization tool for building and exploring phylogenetic trees
+                    from FASTA input. Uses neighbor-joining algorithm with D3.js for rendering. Helps researchers
+                    explore evolutionary relationships visually.</p>
+                <div class="project-links">
+                    <a href="#" class="proj-link">GitHub</a>
+                    <a href="#" class="proj-link">Try It</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="card-shadow"></div>
+                <span class="project-tag ml">ML / DATA</span>
+                <div class="project-title">Drug Interaction Predictor</div>
+                <p class="project-desc">Graph neural network model that predicts potential drug-drug interactions using
+                    molecular structure data from ChEMBL. Senior capstone project. Explores how ML can assist
+                    early-stage pharmacological screening.</p>
+                <div class="project-links">
+                    <a href="#" class="proj-link">GitHub</a>
+                    <a href="#" class="proj-link">Report</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in" style="border-style: dashed; opacity: 0.5; cursor: default;">
+                <div class="card-shadow"></div>
+                <span class="project-tag"
+                    style="background: rgba(255,255,255,0.05); color: rgba(240,234,214,0.4);">COMING SOON</span>
+                <div class="project-title" style="color: rgba(240,234,214,0.4)">Master's Research</div>
+                <p class="project-desc" style="color: rgba(240,234,214,0.3)">Currently loading... check back once the
+                    master's adventure begins. Something genomics-shaped is brewing. 🐱</p>
+            </div>
+        </div>
+    </section>
+
+<section id="experience">
+    <div class="section-header fade-in">
+        <div class="section-label">04 · experience</div>
+        <h2>Where I’ve <span class="highlight">grown</span></h2>
+        <div class="section-divider"></div>
+    </div>
+
+    <div class="timeline">
+
+        <!-- GeneScope -->
+        <div class="timeline-item fade-in">
+            <div class="timeline-year">2026 – Present</div>
+            <div class="timeline-title">Founder & Developer · GeneScope</div>
+            <div class="timeline-sub">
+                Designing and developing a bioinformatics web application for uploading, analyzing, and visualizing
+                genomic datasets.<br><br>
+                Implementing data processing workflows, interactive visualizations, and analytical features to explore
+                patterns in biological data.
+            </div>
+            <span class="timeline-badge">✦ BIOINFORMATICS</span>
+        </div>
+        
+        <!-- TruBridge -->
+        <div class="timeline-item fade-in">
+            <div class="timeline-year">Feb 2026 – Apr 2026</div>
+            <div class="timeline-title">Healthcare Data Analyst Extern · TruBridge</div>
+            <div class="timeline-sub">
+                Conducted exploratory data analysis on public healthcare datasets, identifying infection trends across
+                demographics and time-based patterns.<br><br>
+                Leveraged analytical tools and structured research to generate insights, visualizations, and reports
+                supporting public health decision-making.<br><br>
+                Produced synthesis reports and presentations highlighting trends, data limitations, and actionable
+                recommendations.
+            </div>
+            <span class="timeline-badge">✦ DATA ANALYTICS</span>
+        </div>
+
+        <!-- Student Ambassador -->
+        <div class="timeline-item fade-in">
+            <div class="timeline-year">Aug 2024 – Jan 2025</div>
+            <div class="timeline-title">Student Ambassador · Take Stock in College</div>
+            <div class="timeline-sub">
+                Supported 6,500+ students across Florida by providing guidance on college readiness, financial aid, and
+                academic success.<br><br>
+                Created educational content and resources covering FAFSA, first-generation student support, and exam
+                preparation.<br><br>
+                Produced monthly social media content to promote engagement with academic and career development
+                resources.
+            </div>
+            <span class="timeline-badge">✦ LEADERSHIP</span>
+        </div>
+
+        <!-- JETZY -->
+        <div class="timeline-item fade-in">
+            <div class="timeline-year">Aug 2022 – May 2023</div>
+            <div class="timeline-title">Software Developer Intern · JETZY</div>
+            <div class="timeline-sub">
+                Developed an HTML-based visualization platform to improve user behavior analysis within the
+                application.<br><br>
+                Built data pipelines using Python and Flask to process and analyze SQL-based user data for
+                decision-making.<br><br>
+                Applied machine learning classification models to categorize content and enhance recommendation
+                systems.<br><br>
+                Implemented web scraping and data mining techniques to improve content organization and engagement
+                insights.
+            </div>
+            <span class="timeline-badge">✦ SOFTWARE / DATA</span>
+        </div>
+
+        <!-- Freelance -->
+        <div class="timeline-item fade-in">
+            <div class="timeline-year">Oct 2020 – May 2022</div>
+            <div class="timeline-title">Web Developer · Freelance</div>
+            <div class="timeline-sub">
+                Built and deployed websites and applications, improving client operations and user experience.<br><br>
+                Increased website traffic by 15% through SEO optimization and improved UX design.<br><br>
+                Implemented responsive, mobile-first designs resulting in a 20% increase in user engagement.
+            </div>
+            <span class="timeline-badge">✦ WEB DEVELOPMENT</span>
+        </div>
+
+    </div>
+</section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="section-header fade-in">
+            <div class="section-label">05 · education</div>
+            <h2>My <span class="highlight">journey</span></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item fade-in">
+                <div class="timeline-year">2026 — Present</div>
+                <div class="timeline-title">M.S. in Bioinformatics</div>
+                <div class="timeline-sub">
+                    Northeastern University<br><br>
+                    Focus: computational genomics, data analysis, and machine learning in biological systems.
+                </div>
+                <span class="timeline-badge">✦ IN PROGRESS</span>
+            </div>
+
+            <div class="timeline-item fade-in">
+                <div class="timeline-year">2021 – 2025</div>
+                <div class="timeline-title">B.S. in Computer Science</div>
+                <div class="timeline-sub">
+                    St Petersburg College<br><br>
+                    Relevant coursework: Data Structures, Algorithms, Databases, Machine Learning, Operating Systems, Software
+                    Engineering.<br><br>
+                </div>
+                <span class="timeline-badge">✦ COMPLETED</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-header fade-in">
+            <div class="section-label">06 · contact</div>
+            <h2>Say <span class="highlight">hi!</span></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-text fade-in">
+                <p>
+                    Whether you're a researcher looking for a collaborator, a company scouting for an intern, or just
+                    someone who likes talking about bioinformatics (or cats) — I'd love to hear from you.
+                </p>
+                <p>
+                    Currently open to: research assistant positions, internships in bioinformatics/computational
+                    biology, and interesting conversations. <span class="cat-paw">🐾</span>
+                </p>
+                <a href="mailto:your@email.com" class="btn btn-primary"
+                    style="text-decoration: none; display: inline-block;">EMAIL ME</a>
+            </div>
+
+            <div class="contact-links fade-in">
+                <a href="https://github.com/ss-dngch" class="contact-link" target="_blank">
+                    <div class="contact-link-icon">GH</div>
+                    <div class="contact-link-text">
+                        <div class="contact-link-title">GITHUB</div>
+                        <div class="contact-link-sub">https://github.com/ss-dngch</div>
+                    </div>
+                    <div class="contact-link-arrow">→</div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/douangchai-sipayboun-209061313" class="contact-link" target="_blank">
+                    <div class="contact-link-icon">LI</div>
+                    <div class="contact-link-text">
+                        <div class="contact-link-title">LINKEDIN</div>
+                        <div class="contact-link-sub">www.linkedin.com/in/douangchai-sipayboun-209061313</div>
+                    </div>
+                    <div class="contact-link-arrow">→</div>
+                </a>
+
+                <a href="mailto:ssdouangchai@gmail.com" class="contact-link">
+                    <div class="contact-link-icon">@</div>
+                    <div class="contact-link-text">
+                        <div class="contact-link-title">EMAIL</div>
+                        <div class="contact-link-sub">ssdouangchai@gmail.com</div>
+                    </div>
+                    <div class="contact-link-arrow">→</div>
+                </a>
+
+                <a href="assets/resume/Sophia-Sipayboun-Resume.pdf" class="contact-link" target="_blank">
+                    <div class="contact-link-icon">CV</div>
+                    <div class="contact-link-text">
+                        <div class="contact-link-title">RESUME / CV</div>
+                        <div class="contact-link-sub">View PDF</div>
+                    </div>
+                    <div class="contact-link-arrow">→</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-meow">meow~ ♫</div>
+        <div class="footer-cat">
+            made with 🖤 and way too much caffeine<br>
+            © 2025 · sophia sipayboun · cs student → bioinformatics researcher
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
