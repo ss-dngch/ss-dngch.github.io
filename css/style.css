@@ -82,6 +82,10 @@ nav {
 }
 
 .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
     font-family: 'Press Start 2P', monospace;
     font-size: 0.65rem;
     color: var(--accent);
@@ -90,6 +94,12 @@ nav {
 
 .nav-logo span {
     color: var(--accent3);
+}
+
+.nav-icon {
+    width: 18px;
+    height: 18px;
+    image-rendering: pixelated;
 }
 
 nav ul {

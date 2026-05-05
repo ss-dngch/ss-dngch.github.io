@@ -1,0 +1,86 @@
+<svg width="220" height="260" viewBox="0 0 55 65" xmlns="http://www.w3.org/2000/svg" style="image-rendering:pixelated;" class="cat-img">
+                
+                    <!-- ears -->
+                    <g class="ear ear-left">
+                        <rect x="10" y="4" width="6" height="4" fill="#2d2d2d"></rect>
+                        <rect x="12" y="2" width="4" height="2" fill="#2d2d2d"></rect>
+                        <rect x="12" y="5" width="3" height="2" fill="#e8a0bf"></rect>
+                    </g>
+                    
+                    <g class="ear ear-right">
+                        <rect x="39" y="4" width="6" height="4" fill="#2d2d2d"></rect>
+                        <rect x="39" y="2" width="4" height="2" fill="#2d2d2d"></rect>
+                        <rect x="40" y="5" width="3" height="2" fill="#e8a0bf"></rect>
+                    </g>
+                
+                    <!-- head -->
+                    <rect x="11" y="8" width="33" height="25" fill="#2d2d2d"></rect>
+                    <rect x="13" y="6" width="29" height="4" fill="#2d2d2d"></rect>
+                    <rect x="15" y="33" width="25" height="3" fill="#2d2d2d"></rect>
+                
+                    <!-- tuxedo face patches -->
+                    <rect x="18" y="12" width="19" height="16" fill="#f0ead6"></rect>
+                    <rect x="15" y="12" width="6" height="10" fill="#2d2d2d"></rect>
+                    <rect x="34" y="12" width="6" height="10" fill="#2d2d2d"></rect>
+                    <rect x="21" y="10" width="13" height="5" fill="#2d2d2d"></rect>
+                    <rect x="24" y="18" width="7" height="10" fill="#f0ead6"></rect>
+                
+                    <!-- glasses -->
+                    <rect x="15" y="15" width="11" height="8" fill="none" stroke="#e8a0bf" stroke-width="1.3"></rect>
+                    <rect x="30" y="15" width="11" height="8" fill="none" stroke="#e8a0bf" stroke-width="1.3"></rect>
+                    <rect x="26" y="18" width="4" height="1.3" fill="#e8a0bf"></rect>
+                    <rect x="12" y="18" width="3" height="1.3" fill="#e8a0bf"></rect>
+                    <rect x="41" y="18" width="3" height="1.3" fill="#e8a0bf"></rect>
+                
+                    <!-- eyes -->
+                    <rect class="cat-eye" x="18" y="17" width="5" height="4" fill="#1a1a2e"></rect>
+                    <rect class="cat-eye" x="33" y="17" width="5" height="4" fill="#1a1a2e"></rect>
+                    <rect x="20" y="17" width="1" height="1" fill="#ffffff"></rect>
+                    <rect x="35" y="17" width="1" height="1" fill="#ffffff"></rect>
+                
+                    <!-- cheeks / nose / mouth -->
+                    <rect x="22" y="24" width="2" height="1" fill="#e8a0bf" opacity="0.8"></rect>
+                    <rect x="31" y="24" width="2" height="1" fill="#e8a0bf" opacity="0.8"></rect>
+                    <rect x="26" y="23" width="3" height="2" fill="#e8a0bf"></rect>
+                    <rect x="25" y="26" width="2" height="1" fill="#555"></rect>
+                    <rect x="29" y="26" width="2" height="1" fill="#555"></rect>
+                    <rect x="27" y="25" width="1" height="1" fill="#555"></rect>
+                
+                    <!-- whiskers -->
+                    <rect x="4" y="23" width="11" height="1" fill="#888"></rect>
+                    <rect x="5" y="25" width="10" height="1" fill="#888" opacity="0.7"></rect>
+                    <rect x="40" y="23" width="11" height="1" fill="#888"></rect>
+                    <rect x="40" y="25" width="10" height="1" fill="#888" opacity="0.7"></rect>
+                
+                    <!-- body -->
+                    <rect x="14" y="36" width="27" height="20" fill="#2d2d2d"></rect>
+                    <rect x="20" y="36" width="15" height="20" fill="#f0ead6"></rect>
+                
+                    <!-- tuxedo jacket / lapels -->
+                    <rect x="14" y="36" width="8" height="20" fill="#2d2d2d"></rect>
+                    <rect x="33" y="36" width="8" height="20" fill="#2d2d2d"></rect>
+                    <rect x="22" y="36" width="4" height="9" fill="#2d2d2d"></rect>
+                    <rect x="30" y="36" width="4" height="9" fill="#2d2d2d"></rect>
+                
+                    <!-- pink collar + bell -->
+                    <rect x="20" y="34" width="15" height="3" fill="#e8a0bf"></rect>
+                    <rect x="26" y="36" width="4" height="3" fill="#ffd3b6"></rect>
+                    <rect x="27" y="39" width="2" height="1" fill="#c870a0"></rect>
+                
+                    <!-- arms / paws -->
+                    <rect x="7" y="38" width="7" height="15" fill="#2d2d2d"></rect>
+                    <rect x="41" y="38" width="7" height="15" fill="#2d2d2d"></rect>
+                    <rect x="5" y="51" width="10" height="6" fill="#2d2d2d"></rect>
+                    <rect x="40" y="51" width="10" height="6" fill="#2d2d2d"></rect>
+                    <rect x="6" y="56" width="2" height="1" fill="#e8a0bf"></rect>
+                    <rect x="10" y="56" width="2" height="1" fill="#e8a0bf"></rect>
+                    <rect x="43" y="56" width="2" height="1" fill="#e8a0bf"></rect>
+                    <rect x="47" y="56" width="2" height="1" fill="#e8a0bf"></rect>
+                
+                    <!-- tail -->
+                    <rect x="42" y="53" width="4" height="2" fill="#2d2d2d"></rect>
+                    <rect x="45" y="51" width="4" height="2" fill="#2d2d2d"></rect>
+                    <rect x="48" y="48" width="2" height="4" fill="#2d2d2d"></rect>
+                    <rect x="48" y="47" width="2" height="1" fill="#f0ead6"></rect>
+                
+                </svg>
