@@ -30,7 +30,7 @@ Includes features for data exploration, visualization, and computational analysi
 ## 📬 Contact
 
 - GitHub: https://github.com/ss-dngch  
-- LinkedIn: https://www.linkedin.com/in/douangchai-sipayboun-209061313  
+- LinkedIn: https://www.linkedin.com/in/douangchai-s-209061313/
 - Email: ssdouangchai@gmail.com  
 
 ---
